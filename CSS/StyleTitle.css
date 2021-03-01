@@ -1,0 +1,14 @@
+
+/* TODO: Div main-title */
+/* TODO: set main-title font family & color  */
+
+  #main-title {
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color: #8fbc8f;
+    text-align: center;
+    /* background-color: #778899; */
+    box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+  }

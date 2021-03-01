@@ -1,0 +1,244 @@
+/* TODO:CSS import font form google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import "StyleBothPages.css";
+@import "StyleNav.css";
+
+/*  TODO:  sections Header title  */
+/*  TODO:  title font family & size  */
+#main-title {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  color: #8fbc8f;
+  text-align: center;
+}
+
+/* TODO: sections image */
+/*TODO: image set align & shadow*/
+.main-img {
+  justify-content: center;
+  text-align: center;
+  /* box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6); */
+  /* border: 2px solid rgba(46, 51, 51, 0.6); */
+  background: white;
+}
+
+/*  TODO:img set with & height  */
+.main-img img {
+  width: 30%;
+  min-height: 100px;
+}
+
+/*  TODO:div flex container */
+/*  TODO:flex container  set display flex */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 30px;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*  TODO:section author info set flex 50% */
+.author-info {
+  /* display: inline-block; */
+  padding: 30px;
+  flex: 50%;
+  box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*  TODO: author set img width */
+.author-info img {
+  width: 100px;
+  float: left;
+  padding-right: 30px;
+}
+
+/*  TODO: author info set h3 font size   */
+.author-info h3 {
+  font-size: 28px;
+  text-align: left;
+}
+
+/*  TODO: author info set p margin  */
+.author-info p {
+  margin: 5px;
+  text-align: left;
+}
+
+/*  TODO:section social-info set flex */
+.social-info {
+  flex: 50%;
+  box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+/*  TODO:social-info set h3 font-size */
+.social-info h3 {
+  font-size: 28px;
+}
+
+/*  TODO:social-info set p margin */
+.social-info p {
+  margin: 0;
+}
+
+/*  TODO:social-info set link a tag display & decoration */
+.social-info a {
+  display: inline-flex;
+  text-decoration: none;
+  padding-top: 20px;
+  /* text-align: center; */
+  padding-bottom: 20px;
+  border-bottom: 3px solid #5f9ea0;
+  padding: 8px;
+  color: black;
+  text-transform: uppercase;
+}
+
+/*  TODO:social-info a tag hover */
+.social-info a:hover {
+  color: #778899;
+  border-bottom: 5px solid #778899;
+  background: none;
+}
+
+/*   TODO: social-info button style & font size */
+#button-subscribe {
+  box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+  font-size: 13px;
+  background: #5f9ea0;
+  color: #f5fffa;
+  padding: 10px 21px;
+  text-decoration: none;
+  border: 0;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* TODO: div article-container  */
+/* TODO: set article-container  display & shadow */
+.article-container {
+  /* display: block; */
+  display: grid;
+  grid-gap: 22px;
+  text-align: left;
+  padding: 0 100px;
+  box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+  padding-bottom: 30px;
+}
+
+/* TODO: set article-container h3 font size */
+.article-container h3 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* TODO: set article-container h5 font weight */
+.article-container h5 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* TODO: set article-container b ,u font color */
+.article-container b,
+u {
+  color: lightblue;
+}
+
+/* TODO: set article-container q font weight & color*/
+.article-container q {
+  color: lightblue;
+  font-weight: bold;
+}
+
+/* TODO: set Multi-Device Web Design */
+/* TODO: Medium Device responsive screen */
+@media (max-width: 1000px) {
+  #main-title {
+    font-size: 45px;
+  }
+  figcaption {
+    font-size: 12px;
+  }
+  .author-info h3 {
+    font-size: 24px;
+  }
+  .author-info p {
+    font-size: 12px;
+    padding: 0;
+  }
+  .author-info img {
+    width: 90px;
+    padding-right: 20px;
+  }
+  .social-info h3 {
+    font-size: 24px;
+  }
+  .social-info p {
+    font-size: 14px;
+  }
+  .article-container {
+    padding: 20px;
+  }
+  .article-container h3 {
+    font-size: 24px;
+    /* padding-top: 15px; */
+    margin: 0;
+  }
+  .article-container p,
+  ul {
+    font-size: 12px;
+  }
+  .container footer {
+    font-size: 12px;
+  }
+}
+
+/* TODO:Small Device responsive screen*/
+@media (max-width: 700px) {
+  #main-title {
+    font-size: 30px;
+  }
+  .author-info h3 {
+    font-size: 20px;
+  }
+  .author-info p {
+    font-size: 10px;
+    padding: 0;
+  }
+  .author-info img {
+    width: 50px;
+    padding-right: 10px;
+  }
+  .social-info h3 {
+    font-size: 20px;
+  }
+  .social-info p {
+    font-size: 12px;
+  }
+  #button-subscribe {
+    font-size: 10px;
+  }
+  .article-container {
+    padding: 20px;
+  }
+  .article-container h3 {
+    font-size: 22px;
+    /* padding-top: 15px;
+    margin: 0; */
+  }
+  .article-container p,
+  ul {
+    font-size: 10px;
+  }
+}

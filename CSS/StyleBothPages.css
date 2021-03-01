@@ -1,0 +1,31 @@
+/* TODO:CSS import font form google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+/* TODO: add box sizing to html tag */
+html {
+  box-sizing: border-box;
+}
+
+/* TODO: add margin & background color to body*/
+body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 40px;
+  background: #f5fffa;
+}
+
+/* TODO: add grid to the whole container  */
+.container {
+  display: grid;
+  grid-gap: 30px;
+  /* box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6); */
+}
+
+/* TODO: add footer style  */
+footer {
+  margin-top: 0;
+  font-size: 24px;
+  color: #8fbc8f;
+  text-align: center;
+  padding: 0;
+  box-shadow: 0 2px 9px rgba(46, 51, 51, 0.6);
+}
