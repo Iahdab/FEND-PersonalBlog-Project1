@@ -34,6 +34,7 @@ in this project requires to create HTML and CSS to build out a personal blog web
     OR
   - **In VS code Command Palatte:**\
     ```>Git: Colne  https://github.com/Iahdab/FEND-BlogPost-Project1.git```
+  - ***NOTE: also you can fetch or Download as zip file.***
     
  ### RunningProject
  open index.html in browser 
