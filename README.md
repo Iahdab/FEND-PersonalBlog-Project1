@@ -4,9 +4,9 @@ in this project requires to create HTML and CSS to build out a personal blog web
 
 ## File 
 Index.html
-html
+# html
  - BlogPost.html
-css
+# css
  - StyleBlog.css
  - StyleBothPages.css
  - StyleNav.css
