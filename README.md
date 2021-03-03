@@ -24,7 +24,7 @@ Index.html
 ## CloningRepo 
 in terminal
 ```sh
-`git clone https://github.com/Iahdab/FEND-BlogPost-Project1.git` \
+`git clone https://github.com/Iahdab/FEND-BlogPost-Project1.git`
 ```
 or in vscode command palatte 
 ```sh
