@@ -1,4 +1,5 @@
-# Project(1) Personal Blog UDACITY.com NanoDegree
+# Project Personal Blog
+***1st Project for UDACITY.com NanoDegree*** 
 
 ## Table of Contents
 - [Overview](#Overview)
