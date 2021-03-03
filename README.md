@@ -1,5 +1,12 @@
 # FEND-BlogPost-Project1
-## Personal Blog Website
+## Table of Contents
+
+- [Instructions](#instructions)
+- [Functionality](#functionality)
+- [File](#File)
+- [CloningRepo](#CloningRepo)
+
+## Instructions
 in this project requires to create HTML and CSS to build out a personal blog website, including custom images, layout (grid & fLex), and styling. 
 
 ## File 
@@ -14,7 +21,7 @@ Index.html
  - StyleTitle.css
 
 
-## To clone 
+## CloningRepo 
 in terminal
 ```sh
 `git clone https://github.com/Iahdab/FEND-BlogPost-Project1.git` \
