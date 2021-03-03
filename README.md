@@ -29,9 +29,10 @@ in this project requires to create HTML and CSS to build out a personal blog web
   - StyleTitle.css
 
  ### CloningRepo 
-  **in terminal**\
+  - **In Terminal:**\
     ```git clone https://github.com/Iahdab/FEND-BlogPost-Project1.git```
-  **or in vscode command palatte**\
+    OR
+  - **In VS code Command Palatte:**\
     ```>Git: Colne  https://github.com/Iahdab/FEND-BlogPost-Project1.git```
     
  ### RunningProject
