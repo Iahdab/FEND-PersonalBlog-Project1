@@ -20,13 +20,13 @@ in this project requires to create HTML and CSS to build out a personal blog web
  ### File 
  - Index.html
  - **html Folder**
-  - BlogPost.html
+    - BlogPost.html
  - **css Folder** 
-  - StyleBlog.css
-  - StyleBothPages.css
-  - StyleNav.css
-  - StylePost.css
-  - StyleTitle.css
+    - StyleBlog.css
+    - StyleBothPages.css
+    - StyleNav.css
+    - StylePost.css
+    - StyleTitle.css
 
  ### CloningRepo 
   - **In Terminal:**\
