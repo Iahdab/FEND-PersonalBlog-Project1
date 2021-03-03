@@ -1,5 +1,7 @@
 # FEND-BlogPost-Project1
 
 ## To clone 
-in terminal `git clone` \
-or in vscode command palatte > Git: Colne  
+```sh
+in terminal `git clone https://github.com/Iahdab/FEND-BlogPost-Project1.git` \
+or in vscode command palatte > Git: Colne  https://github.com/Iahdab/FEND-BlogPost-Project1.git
+```
