@@ -1,4 +1,7 @@
 # FEND-BlogPost-Project1
+## Personal Blog Website
+in this project requires to create HTML and CSS to build out a personal blog website, including custom images, layout (grid & fLex), and styling. 
+## File 
 
 ## To clone 
 in terminal
